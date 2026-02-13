@@ -1,0 +1,25 @@
+configuration {
+  modi: "drun,run";
+  font: "Iosevka 12";
+  show-icons: true;
+}
+
+inputbar {
+  children: [prompt, entry];
+  spacing: 5px;
+}
+
+entry {
+  placeholder: "...";
+}
+
+listview {
+  lines: 12;
+  spacing: 4px;
+  scrollbar: false;
+}
+
+element {
+  padding: 4px;
+}
+
