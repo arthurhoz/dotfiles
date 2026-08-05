@@ -1,0 +1,25 @@
+hyprland
+hyprlock
+hyprpaper
+rofi
+waybar
+alacritty
+
+librewolf
+nautilus
+gnome-calculator
+neovim
+
+libreoffice
+vlc media
+obs studio
+kdenlive
+
+spotify
+zapzap
+goofcord
+steam
+
+kicad
+freecad
+
