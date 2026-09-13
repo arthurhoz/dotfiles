@@ -1,13 +1,13 @@
 hyprland
 hyprlock
 hyprpaper
-rofi
-waybar
 alacritty
+quickshell
+fastfetch
 
 librewolf
 nautilus
-gnome-calculator
+qcalculator
 neovim
 
 libreoffice
@@ -15,9 +15,8 @@ vlc media
 obs studio
 kdenlive
 
-spotify
-zapzap
-goofcord
+fluffychat
+limusic
 steam
 
 kicad

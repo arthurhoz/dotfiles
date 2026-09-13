@@ -1,7 +1,7 @@
 local terminal = "alacritty"
 local fileManager = "nautilus"
 local browser = "librewolf"
-local menu = "rofi -show drun"
+local menu = "qs ipc call launcher toggle"
 local displayLocker = "hyprlock"
 
 hl.config({
@@ -34,7 +34,7 @@ hl.bind("SUPER + M", hl.dsp.exit())
 hl.bind("SUPER + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind("SUPER + F", hl.dsp.window.fullscreen(0))
 
-hl.bind("SUPER + Escape", hl.dsp.exec_cmd("pkill waybar || waybar"))
+hl.bind("SUPER + Escape", hl.dsp.exec_cmd("qs ipc call bar toggle"))
 
 hl.bind("SUPER + SHIFT + Backspace", hl.dsp.exec_cmd("poweroff"))
 
