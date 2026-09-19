@@ -1,7 +1,8 @@
 local terminal = "alacritty"
 local fileManager = "nautilus"
 local browser = "librewolf"
-local menu = "qs ipc call launcher toggle"
+local launcher = "qs ipc call launcher toggle"
+local wifiManager = "qs ipc call wifi toggle"
 local displayLocker = "hyprlock"
 
 hl.config({
@@ -25,7 +26,8 @@ hl.config({
 hl.bind("SUPER + RETURN", hl.dsp.exec_cmd(terminal))
 hl.bind("SUPER + E", hl.dsp.exec_cmd(fileManager))
 hl.bind("SUPER + B", hl.dsp.exec_cmd(browser))
-hl.bind("SUPER + R", hl.dsp.exec_cmd(menu))
+hl.bind("SUPER + R", hl.dsp.exec_cmd(launcher))
+hl.bind("SUPER + W", hl.dsp.exec_cmd(wifiManager))
 hl.bind("SUPER + SHIFT + Escape", hl.dsp.exec_cmd(displayLocker))
 
 -- Window management

@@ -5,5 +5,6 @@ import "widgets"
 ShellRoot {
   BarWindow {}
   LauncherWindow {}
+  WifiWindow {}
 }
 

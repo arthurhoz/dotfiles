@@ -33,7 +33,7 @@ PanelWindow {
   }
 
   Timer {
-    interval: 2000
+    interval: 500
     running: true
     repeat: true
     triggeredOnStart: true
@@ -152,7 +152,7 @@ PanelWindow {
         }
 
         Timer {
-          interval: 1000
+          interval: 500
           running: true
           repeat: true
           onTriggered: audioProc.running = true
